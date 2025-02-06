@@ -15,7 +15,7 @@ mongoose
 app.use(express.json());
 
 // Basic RoutePort = 8000
-DB_URL ="mongodb+srv://Tejas_30:tejas30@tejas30.wkeln.mongodb.net/"
+DB_URL = "mongodb+srv://gaurang:gaurang123@cluster0.giafm.mongodb.net/"
 app.get("/", (req, res) => {
   res.send("Customer Management System Backend is Running");
 });
